@@ -1,15 +1,21 @@
 {
-    "orgName": "workshops",
-    "edition": "Developer",
-    "description": "quick actions workshop",
-    "settings": {
-        "orgPreferenceSettings": {
-            "chatterEnabled": true,
-            "pathAssistantsEnabled": true,
-            "s1DesktopEnabled": true,
-            "s1EncryptedStoragePref2": false
-        }
+  "orgName": "workshops",
+  "edition": "Developer",
+  "description": "quick actions workshop",
+  "adminEmail": "shane@mailinator.com",
+  "settings": {
+    "chatterSettings": {
+      "enableChatter": true
     },
-    "hasSampleData": "true"
-
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  },
+  "hasSampleData": true
 }
